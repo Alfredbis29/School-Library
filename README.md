@@ -1,1 +1,75 @@
-# School-Library
+# School Library
+
+This is the School Library Software, which will be used to assist the librarian in keeping track of students who have borrowed books as well as all books in the library.
+
+The following are some of the features of this app:
+
+- Add new students or teachers.
+- Add new books.
+- Save records of who borrowed a given book and when.
+
+And all of this will be built in a beautiful and well-organized way!
+
+## Built With
+
+- Ruby
+- Git
+- GitHub
+- VSCode
+- Rubocop
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+- A source-code editor (preferably Visual Studio Code)
+
+### Install
+
+- Ruby
+
+### Using it Locally
+
+- Clone the project
+
+git clone https://github.com/Alfredbis29/School-Library.git
+
+cd Ruby-Enumerable
+
+- To Start the programs
+
+open terminal
+run the command $irb (interactive ruby shell)
+run the program functions
+
+## Author
+
+👤 **Alfred Bisimwa**
+
+- GitHub: [@alfredbis29](https://github.com/Alfredbis29)
+- Twitter: [@AlfredBisimwa](https://twitter.com/AlfredBisimwa1)
+- LinkedIn: [AlfredBis](https://www.linkedin.com/in/kalumuna-bisimwa-0501a81a8/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Microverse program
+- My standup team
+- Microverse team
+- My family's support
+
+## 📝 License
+
+This project is open source project.

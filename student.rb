@@ -1,4 +1,4 @@
-require '/.person.rb'
+require './person'
 
 class student < person
   def initialize(name, age, parent_permission)

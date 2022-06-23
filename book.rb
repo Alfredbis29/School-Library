@@ -5,11 +5,11 @@ class Book
   def initialize(title, author)
     @title = title
     @author = author
-    @label = []
+    @rental = []
   end
 
-  def add_rental(rentals)
-    @rentals.push(rentals)
+  def add_rental(date, person)
+    @rentals.push(Rental.new(date, self, person))
     rental.book = self
   end
 end

@@ -7,4 +7,3 @@ class Book
     @author = author
   end
 end
-

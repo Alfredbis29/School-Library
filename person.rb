@@ -24,7 +24,7 @@ class Person < Nameable
     @name
   end
 
-  private
+  privateb
 
   def of_age?
     @age > 18

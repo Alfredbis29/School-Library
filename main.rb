@@ -53,6 +53,5 @@ class Main
     run
   end
 end
-end
 
 Main.new.main

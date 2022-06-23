@@ -5,7 +5,7 @@ class Classroom
   def initialize(label)
     @label = label
     @student = []
-    end
+  end
 
   def add_student(student)
     @students.push(student)

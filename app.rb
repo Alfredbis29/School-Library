@@ -43,7 +43,7 @@ class App
     parent_permission = gets.chomp
     case parent_permission
     when 'y'
-      student = Student.new(age, name, parent_permission: false)
+      student = Student.new(age, name, parent_permission: true)
       puts "The Student is created successfuly\n\n"
     when 'n'
       student = Student.new(age, name, parent_permission: false)
@@ -124,6 +124,7 @@ class App
     puts "\n"
   end
 
+  # rubocop:disable Metrics/CyclomaticComplexity
   def handle_input(option)
     case option
     when 1
@@ -146,6 +147,7 @@ class App
     end
     ui_input
   end
+  # rubocop:enable Metrics/CyclomaticComplexity
 
   def ui_input
     puts 'Please choose an option by entering a number:'

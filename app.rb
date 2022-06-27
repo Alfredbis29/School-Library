@@ -68,7 +68,7 @@ class App
     person_type = gets.chomp.to_i
     print 'Age: '
     age = gets.chomp
-    print 'Name: '
+    print 'Name:'
     name = gets.chomp
     case person_type
     when 1

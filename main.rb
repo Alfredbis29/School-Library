@@ -1,18 +1,9 @@
-require './app'
+require './start'
 
-class Main
-  def initialize
-    @app = App.new
-  end
-
-  def run
-    puts "Welcome to School Library App\n\n"
-    @app.ui_input
-  end
-
-  def main
-    run
-  end
+def main
+  puts "Welcome to School Library App\n\n"
+  start = Start.new
+  start.run
 end
 
-Main.new.main
+main

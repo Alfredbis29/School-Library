@@ -1,11 +1,11 @@
-require './student'
-require './teacher'
-require './book'
-require './rental'
-require './list_items'
-require './create_rental'
-require './create_book'
-require './create_person'
+require_relative './student'
+require_relative './teacher'
+require_relative './book'
+require_relative './rental'
+require_relative './list_items'
+require_relative './create_rental'
+require_relative './create_book'
+require_relative './create_person'
 
 class App
   def initialize

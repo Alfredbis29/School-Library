@@ -1,4 +1,4 @@
-require './start'
+require_relative './start'
 
 def main
   puts "Welcome to School Library App\n\n"

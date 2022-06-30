@@ -87,7 +87,7 @@ class App
     author = gets.chomp
     @books.push(Book.new(title, author))
     puts "The book is created successfuly\n\n"
-  end
+
 
   def create_rental
     print "\nSelect a book from the following list by number: "

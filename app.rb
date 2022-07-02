@@ -127,7 +127,7 @@ class App
   # rubocop:disable Metrics/CyclomaticComplexity
   def handle_input(option)
     case option
-    when
+    when 1
       list_books
     when 2
       list_persons

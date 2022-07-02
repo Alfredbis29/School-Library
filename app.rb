@@ -81,7 +81,7 @@ class App
 
   def ui_input
     puts 'Please choose an option by entering a number:'
-    puts '0. list all books'
+    puts '1. list all books'
     puts '2. list all people'
     puts '3. create a person (teacher or student)'
     puts '4. create a bookW'
